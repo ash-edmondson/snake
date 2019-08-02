@@ -92,6 +92,9 @@ function updateSnake(){
  
 if (snake.dead){
 
+  alert(`Game Over, you scored ${snake.t.length -2} Points `)
+    return
+
   return
 
 }
